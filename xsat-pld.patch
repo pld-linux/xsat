@@ -1,0 +1,11 @@
+--- xsatellite.tcl	Mon Nov 26 00:58:08 2001
++++ xsatellite.tcl.new	Mon Nov 26 00:58:06 2001
+@@ -10,7 +10,7 @@
+ set files(account) "$me(path)/account.txt"
+ set files(shares) "$me(path)/shares.txt"
+ set files(config) "$env(HOME)/.xsatrc"
+-set files(satellite) "$me(path)/Satellite/AGSatellite"
++set files(satellite) "/usr/bin/AGSatellite"
+ 
+ set me(version) "XSatellite - v 0.21"
+ set me(program_url) "http://xsatellite.sourceforge.net"
