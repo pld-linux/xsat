@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Communications                                     
 Source0:	http://dl.sourceforge.net/xsatellite/%{name}-%{version}.tar.gz
+# Source0-md5:	482070282d69d7d0e479d0ab0d44d0fd
 Source1:	xsat.pld
 Patch0:		%{name}-pld.patch
 Requires:	AGSatellite
