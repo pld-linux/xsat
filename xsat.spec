@@ -5,8 +5,6 @@ Version:	0.21
 Release:	1
 License:	GPL
 Group:		Applications/Communications                                     
-Group(de):	Applikationen/Kommunikation                                     
-Group(pl):	Aplikacje/Komunikacja
 Source0:	http://prdownloads.sourceforge.net/xsatellite/%{name}-%{version}.tar.gz
 Source1:	xsat.pld
 Patch0:		%{name}-pld.patch
