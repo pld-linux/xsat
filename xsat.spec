@@ -42,11 +42,6 @@ install wav/* $RPM_BUILD_ROOT%{_datadir}/%{name}/wav/
 install xsatellite.tcl $RPM_BUILD_ROOT%{_datadir}/%{name}/
 install %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/xsatellite
 
-gzip -9nf C*
-gzip -9nf README
-gzip -9nf config/*
-
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -58,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/tcl/*
 %{_datadir}/%{name}/wav/*
 
-%doc *.gz config
+%doc C* README config/* config
