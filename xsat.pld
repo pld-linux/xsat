@@ -1,0 +1,15 @@
+#!/bin/sh
+if [ ! -d .xsat ] ; then
+   mkdir ~/.xsat/gif -p
+   mkdir ~/.xsat/tcl -p
+   mkdir ~/.xsat/wav -p
+   mkdir ~/.xsat/config -p
+   
+   install -m 644 /usr/share/xsat/gif/* ~/.xsat/gif
+   install -m 644 /usr/share/xsat/tcl/* ~/.xsat/tcl
+   install -m 644 /usr/share/xsat/wav/* ~/.xsat/wav
+   install /usr/share/xsat/xsatellite.tcl ~/.xsat      
+   
+fi
+cd ~/.xsat
+wish ~/.xsat/xsatellite.tcl
