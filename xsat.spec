@@ -4,7 +4,7 @@ Name:		xsat
 Version:	0.21
 Release:	1
 License:	GPL
-Group:		Applications/Communications                                     
+Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/xsatellite/%{name}-%{version}.tar.gz
 # Source0-md5:	482070282d69d7d0e479d0ab0d44d0fd
 Source1:	xsat.pld
