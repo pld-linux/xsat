@@ -8,12 +8,12 @@ Group:		Applications/Communications
 Source0:	http://prdownloads.sourceforge.net/xsatellite/%{name}-%{version}.tar.gz
 Source1:	xsat.pld
 Patch0:		%{name}-pld.patch
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-ExclusiveArch:	%{ix86}
 Requires:	tcl >= 8.3
 Requires:	tk >= 8.3
 Requires:	AGSatellite
 Requires:	XFree86
+ExclusiveArch:	%{ix86}
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 AGSatellite X interface.
