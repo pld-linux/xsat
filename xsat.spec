@@ -1,5 +1,5 @@
 Summary:	AGSatellite X interface
-Summary(pl.UTF-8):   Nakładka graficzna na AGSatellite
+Summary(pl.UTF-8):	Nakładka graficzna na AGSatellite
 Name:		xsat
 Version:	0.21
 Release:	1
