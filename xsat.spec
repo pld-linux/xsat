@@ -1,5 +1,5 @@
 Summary:	AGSatellite X interface
-Summary(pl):	Nak≥adka graficzna na AGSatellite
+Summary(pl.UTF-8):   Nak≈Çadka graficzna na AGSatellite
 Name:		xsat
 Version:	0.21
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 AGSatellite X interface.
 
-%description -l pl
-Nak≥adka graficzna na AGSatellite.
+%description -l pl.UTF-8
+Nak≈Çadka graficzna na AGSatellite.
 
 %prep
 %setup -q -n %{name}%{version}
