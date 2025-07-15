@@ -24,7 +24,7 @@ Nakładka graficzna na AGSatellite.
 
 %prep
 %setup -q -n %{name}%{version}
-%patch0 -p0
+%patch -P0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
